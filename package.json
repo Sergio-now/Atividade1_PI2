@@ -1,0 +1,16 @@
+{
+  "name": "api-produtos-crud",
+  "version": "1.0.0",
+  "description": "API REST para gerenciar produtos (CRUD em memória)",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
