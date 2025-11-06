@@ -12,8 +12,8 @@ Este projeto implementa uma API REST simples para o gerenciamento de produtos (o
 
 1.  **Clone o repositório** (ou baixe os arquivos):
     ```bash
-    git clone [SEU_LINK_DO_GITHUB_AQUI]
-    cd [NOME_DA_PASTA_DO_PROJETO]
+    git clone https://github.com/Sergio-now/Atividade1_PI2.git
+    cd Atividade1_PI2-main
     ```
 
 2.  **Instale as dependências**:
@@ -139,7 +139,7 @@ Abaixo estão os *prints* dos testes realizados no Postman para validar cada fun
 ![Teste Buscando por ID (GET :id)](./img/Listar_por_IP.png)
 
 ### 4. `GET /produtos/:id` (Erro 404 - Não encontrado)
-**Atenção: Adicione seu print do teste 404 aqui e renomeie o arquivo para `get_404.png`**
+**Lembrar de adicionar print do teste 404 aqui e renomear o arquivo para `get_404.png`**
 ![Teste GET por ID 404 (Não Encontrado)](./img/get_404.png)
 
 ### 5. `PUT /produtos/:id` (Atualização completa)
@@ -152,5 +152,5 @@ Abaixo estão os *prints* dos testes realizados no Postman para validar cada fun
 ![Teste de Deleção (DELETE)](./img/Deletar.png)
 
 ### 8. `DELETE /produtos/:id` (Erro 404 - Não encontrado)
-**Atenção: Adicione seu print do teste 404 aqui e renomeie o arquivo para `delete_404.png`**
+**Lembrar de adicionar print do teste 404 aqui e renomear o arquivo para `delete_404.png`**
 ![Teste DELETE por ID 404 (Não Encontrado)](./img/delete_404.png)
